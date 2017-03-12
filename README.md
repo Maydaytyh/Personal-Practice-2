@@ -1,10 +1,10 @@
-这是在美创科技实习期间写的一些小项目
+这是在美创科技实习期间写的一些小项目<br>
 <br>
 Scss+Bootstrap+Jquery的简单博客页面<br>
 Webpack+Node+echarts的极简单页面<br>
 Qlick+echarts开发的可视化插件<br>
 <br>
-另外，个人在起期间也学习了：
+另外，个人在起期间也学习了：<br>
 <br>
 linux<br>
 sql<br>
