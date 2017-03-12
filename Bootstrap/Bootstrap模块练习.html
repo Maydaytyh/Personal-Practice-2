@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 移动设备优先 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>熟悉bootstrap3框架</title>
+	<link rel="stylesheet" type="text/css" href="lib/css/Normalize.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+        <header role="banner" class="dis">
+            <nav role="navigation" class="navbar navbar-default">
+              <div class="container">
+                <div class="navbar-header">
+                <!-- collapse是折叠的意思 -->
+    			  <span>高凯/FrankKai<span>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html"><span class="icon fa fa-home"></span>SQL</a>
+                    </li>
+                    <li><a href="#"><span class="icon fa fa-desktop"></span>Qlik</a></li>
+                    <li><a href="#"><span class="icon fa fa-group"></span>数据仓库</a></li>
+                    <li><a href="#"><span class="icon fa fa-envelope"></span>Bootstrap</a></li>
+                    <li><a href="#"><span class="icon fa fa-group"></span>图解HTTP</a></li>
+                    <li><a href="#"><span class="icon fa fa-envelope"></span>Echarts</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div><!--/.container -->
+            </nav>
+        </header>
+	<div class="sidebar">
+		<ul>				  	 
+			<img class="img-responsive img-circle img-thumbnail logo" src="img/logo.jpg" alt="responsive">
+			<h3>高凯/FrankKai</h3>
+			<li><span>SQL</span></li>
+			<li><span>Qlik</span></li>
+			<li><span>数据仓库</span></li>
+			<li><span>Bootstrap</span></li>
+			<li><span>图解HTTP</span></li>
+			<li><span>Echarts</span></li>
+		</ul>
+	</div>
+	<div class="container-fluid clearfix ">
+			<div class="content pull-left">
+				<ul class="nav nav-tabs" role="tablist">
+				  <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+				  <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+				  <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+				  <li role="presentation"><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+				</ul>
+				<div class="tab-content">
+				  <div role="tabpanel" class="tab-pane fade in active" id="home">
+				  	<form role="form">
+						<fieldset>
+							<legend>个人信息</legend>
+							<div class="form-group col-md-3 col-sm-6 col-xs-12">
+								<input type="text">
+							</div>
+							<div class="form-group col-md-3 col-sm-6 col-xs-12">
+								<input type="button" value="hello">
+							</div>
+							<div class="form-group col-md-3 col-sm-6 col-xs-12">
+								<input type="checkbox">
+								<input type="checkbox">
+								<input type="checkbox">
+							</div>
+							<div class="form-group col-md-3 col-sm-6 col-xs-12">
+								<input type="radio">
+							</div>
+						</fieldset>
+					</form>
+				  </div>
+				  <div role="tabpanel" class="tab-pane" id="profile">
+				  		<table class="table table-striped table-bordered table-hover table-condensed">
+				  			<tr>
+				  				<th class="info">一</th>
+				  				<th class="info">二</th>
+				  				<th class="info">三</th>
+				  			</tr>
+				  			<tr class="success">
+					  			<td>1</td>
+					  			<td>2</td>
+					  			<td>3</td>
+				  			</tr>
+				  			<tr class="danger">
+					  			<td>4</td>
+					  			<td>5</td>
+					  			<td>6</td>
+				  			</tr>
+				  			<tr>
+					  			<td class="active">7</td>
+					  			<td class="warning">8</td>
+					  			<td class="info">9</td>
+				  			</tr>
+				  		</table>
+				  </div>
+				  <div role="tabpanel" class="tab-pane" id="messages">
+						<p/><button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button></p>
+						<p/><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button></p>
+						<!-- HTML to write -->
+						
+						<div><a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
+
+							<!-- Generated markup by the plugin -->
+							<div class="tooltip top" role="tooltip">
+							  <div class="tooltip-arrow"></div>
+							  <div class="tooltip-inner">
+							    Some tooltip text!
+							  </div>
+							</div>
+						</div>
+						<div>
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+							<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+							  <div class="modal-dialog modal-sm">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							        <h4 class="modal-title">注册结果</h4>
+							      </div>
+							      <div class="modal-body">
+							        <div class="alert alert-success" role="alert">成功！</div>
+							      </div>
+<!-- 							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							        <button type="button" class="btn btn-primary">Save changes</button>
+							      </div> -->
+							    </div>
+							  </div>
+							</div>
+						</div>
+				  </div>
+				  <div role="tabpanel" class="tab-pane" id="settings">
+					  	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <img  class="img-responsive" src="img/logo.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    <div class="item">
+						      <img  class="img-responsive" src="img/carsouel_2.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    <div class="item">
+						      <img class="img-responsive"  src="img/carsouel_3.jpg" alt="...">
+						      <div class="carousel-caption">
+						        ...
+						      </div>
+						    </div>
+						    ...
+						  </div>
+
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+				  </div>
+				</div>
+			</div>
+
+<!-- 			<div class="clear-float">这段代码拥有.clearfix的效果</div> -->
+	</div>
+	<nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+		<div class="container">
+		<!-- 	进度条 -->
+		<div class="progress">
+		  	<div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+		   	 	<span class="sr-only">60% Complete</span>
+	 		</div>
+		</div>
+		</div>
+		<nav>
+			<ul class="pagination">
+				<li><a href="#" id="last-one">&laquo</a></li>
+				<li><a href="#" class="active nums">1</a></li>
+				<li><a href="#" class=" nums">2</a></li>
+				<li><a href="#" class=" nums">3</a></li>
+				<li><a href="#" class=" nums">4</a></li>
+				<li><a href="#" id="next-one">&raquo</a></li>
+			</ul>
+		</nav>
+	</nav>
+	<!-- 分页 -->
+	<!-- 	深色背景narbar-inverse -->
+	<script type="text/javascript" src="lib/js/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="lib/js/bootstrap.js"></script>
+	<script type="text/javascript">
+		//tab选项卡
+		$('.nav-tabs a').click(function (e) {
+		  e.preventDefault()
+		  // $(".tab-content .active").addClass("bounceInDown");
+		  $(this).tab('show');
+		  var $probar=$('.progress-bar');
+		  var $parent=$(this).parent();
+		  var index=$(".nav-tabs li").index($parent);
+			switch(index){
+				case 0:
+					$probar.css("width","25%");
+					break;
+				case 1:
+					$probar.css("width","50%");
+					break;
+				case 2:
+					$probar.css("width","75%");
+					break;
+				case 3:
+					$probar.css("width","100%");
+					break;
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		// 点击 1，2,3,4跳转到相应页面
+		$tab=$(".nav-tabs li");
+		$pag=$(".pagination li .nums");
+		$pag.click(function(){
+			var index = $pag.index(this);
+			$tab.eq(index).children().click();
+			console.log(index);
+		})
+		// 向上翻页
+		$(document).on('click','#last-one',function(){
+			if($('.nav-tabs .active').prev('li').length==0){
+				$tab.eq(3).children().click();
+			}else{
+				$('.nav-tabs .active').prev('li').children().click();
+			}
+		})
+		// 向下翻页
+		$(document).on('click','#next-one',function(){
+			if($('.nav-tabs .active').next('li').length==0){
+				$tab.eq(0).children().click();
+			}else{
+				$('.nav-tabs .active').next('li').children().click();
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		$tab.click(function(){
+			$(".tab-content .active").addClass("bounceInDown");
+		})
+		// 如何为tab下的内容块添加动画，tab()方法？
+	</script>
+	<script>
+    	$(function () { $("[data-toggle='tooltip']").tooltip(); });
+    	$(function () { $("[data-toggle='popover']").popover(); });
+	</script>
+</body>
+</html>
