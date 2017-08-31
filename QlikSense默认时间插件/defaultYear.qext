@@ -1,0 +1,9 @@
+{
+	"name": "defaultYear",
+	"description": "defaultYear",
+	"icon": "list",
+	"type": "visualization",
+	"version": 1.2,
+	"preview": "listbox",
+	"author": ""
+}
