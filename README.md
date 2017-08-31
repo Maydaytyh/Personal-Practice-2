@@ -19,7 +19,7 @@ vue等<br>
 
 项目截图：
 1.QlikSense饼图插件
-!QlikSense饼图插件[QlikSense饼图插件](https://github.com/FrankKai/Persional-Practice-2/blob/master/QlikSense%E9%A5%BC%E5%9B%BE%E6%8F%92%E4%BB%B6/%E9%A5%BC%E5%9B%BE%E6%8F%92%E4%BB%B6.jpg)
+![QlikSense饼图插件](https://github.com/FrankKai/Persional-Practice-2/blob/master/QlikSense%E9%A5%BC%E5%9B%BE%E6%8F%92%E4%BB%B6/%E9%A5%BC%E5%9B%BE%E6%8F%92%E4%BB%B6.jpg)
 附个人博客：http://www.jianshu.com/p/8b1ad3edc248
 2.Bootstrap练习
 ![Bootstrap练习](https://github.com/FrankKai/Persional-Practice-2/blob/master/Bootstrap%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Bootstrap%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.png)
