@@ -1,235 +1,245 @@
 {
-  "keys": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\config\\config.default.js",
+  "keys": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js",
   "view": {
-    "defaultViewEngine": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js",
     "mapping": {
-      ".tpl": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\config\\config.default.js"
+      ".tpl": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js"
     },
-    "root": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-view\\config\\config.default.js"
+    "root": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view@2.0.0@egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js",
+    "serverUrl": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js"
+  },
+  "middleware": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js",
+  "robot": {
+    "ua": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-session\\config\\config.default.js",
-    "key": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-session\\config\\config.default.js",
-    "httpOnly": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-session\\config\\config.default.js",
-    "encrypt": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-session\\config\\config.default.js"
+    "maxAge": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-session@3.0.0@egg-session\\config\\config.default.js",
+    "key": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-session@3.0.0@egg-session\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-session@3.0.0@egg-session\\config\\config.default.js",
+    "encrypt": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-session@3.0.0@egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-    "protocolWhiteList": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-    "defaultMiddleware": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "useSession": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "ignoreJSON": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "cookieName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "sessionName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "headerName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "bodyName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "queryName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.local.js",
-      "maxAge": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "includeSubdomains": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "value": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js",
-      "policy": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-security\\config\\config.default.js"
+    "shtml": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-security@2.0.0@egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-jsonp\\config\\config.default.js",
-    "callback": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-jsonp\\config\\config.default.js",
-    "csrf": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-jsonp\\config\\config.default.js"
+    "limit": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-onerror@2.0.0@egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-i18n\\config\\config.default.js",
-    "dirs": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-i18n\\config\\config.default.js",
-    "queryField": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieField": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-i18n\\config\\config.default.js"
+    "defaultLocale": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-watcher\\config\\config.local.js",
+    "type": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-watcher\\config\\config.default.js",
-      "development": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-watcher\\config\\config.default.js"
+      "default": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "fieldSize": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "fields": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "fileSize": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "files": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js",
-    "whitelist": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-multipart\\config\\config.default.js"
+    "autoFields": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-development\\config\\config.default.js",
-    "ignoreDirs": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-development\\config\\config.default.js",
-    "fastReady": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-development\\config\\config.default.js",
-    "reloadOnDebug": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-development\\config\\config.default.js"
+    "watchDirs": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-development@2.0.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-development@2.0.0@egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-development@2.0.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-development@2.0.0@egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js",
-    "maxDays": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.3.0.0@egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-logrotator@3.0.0@egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js",
-    "dir": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js",
-    "dynamic": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js",
-    "preload": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js",
-    "buffer": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js",
-    "maxFiles": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg-static\\config\\config.default.js"
+    "prefix": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-static@2.0.0@egg-static\\config\\config.default.js"
   },
   "nunjucks": {
-    "autoescape": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.default.js",
-    "cache": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.1.4@egg-view-nunjucks\\config\\config.local.js"
+    "autoescape": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg-view-nunjucks@2.1.4@egg-view-nunjucks\\config\\config.local.js"
   },
-  "env": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "name": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "proxy": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "protocolHeaders": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "ipHeaders": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "hostHeaders": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+  "env": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "name": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
   "pkg": {
-    "name": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "version": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "description": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "main": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+    "name": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "version": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "description": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "main": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
     "scripts": {
-      "test": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "dev": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "test": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "dev": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "cov": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     },
-    "author": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "license": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+    "author": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "license": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "egg-view-nunjucks": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "egg": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "egg-bin": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "egg-mock": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     }
   },
-  "baseDir": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "HOME": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "rundir": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+  "baseDir": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
   "dump": {
-    "ignore": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "ignore": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "notFound": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "sitefile": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "middlewares": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "httpClient": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "bodyparser": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "pageUrl": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "/favicon.ico": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "formLimit": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "jsonLimit": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "strict": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+    "enable": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "strict": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "depth": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "parameterLimit": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "arrayLimit": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "depth": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "encoding": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "env": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "level": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "consoleLevel": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "outputJSON": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "buffer": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "appLogName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "coreLogName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "agentLogName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "errorLogName": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+    "dir": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "env": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "level": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.local.js"
+      "consoleLevel": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "allowDebugAtProd": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+    "enableDNSCache": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
     "request": {
-      "timeout": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "timeout": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "maxSockets": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "maxFreeSockets": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     }
   },
-  "coreMiddleware": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-  "workerStartTimeout": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
+  "coreMiddleware": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "port": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js",
-      "hostname": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+      "path": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "port": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "C:\\Users\\GaoKai\\Desktop\\github项目\\egg-example\\node_modules\\.2.0.0@egg\\config\\config.default.js"
+    "responseTimeout": "C:\\Users\\frank\\Desktop\\Personal-Practice-2\\egg-example\\node_modules\\_egg@2.0.0@egg\\config\\config.default.js"
   }
 }

@@ -1,10 +1,10 @@
 const Service = require('egg').Service;
 
-class NewsService extends app.Service {
+class NewsService extends Service {
     async list(page=1){
         const {serverUrl,pageSize} = this.config.news;
 
-        const {data:idList} = await this.ctx.curl(`${serverUrl}/topstories.json`,{
+        const {data:idList} = await this.ctx.curl(`${serverUrl}`,{
             data:{
                 orderBy:'"$key"',
                 startAt:'"${pageSize * (page - 1)}"',
