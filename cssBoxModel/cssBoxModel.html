@@ -16,8 +16,7 @@
 			height:100%;
 /*			min-height: 20px;
 			max-height: 300px;*/
-			/*存在margin collapsing现象*/
-			margin:0 0 20px 0;
+			margin:20px auto;
 		}
 		.content{
 			box-sizing: content-box;
@@ -34,6 +33,15 @@
 		}
 		.margin{
 			background-color:rgba(255,0,255,0.5);
+		}
+		.margin-collapsing-left-right{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		/*margin top/bottom 存在collapsing现象*/
+		.margin-collapsing-top-bottom{
+			margin-top: 20px;
+			margin-bottom: 20px;
 		}
 	</style>
 </head>
@@ -53,6 +61,13 @@
 	</div>
 	<div class="margin common">
 		margin
+		<a href="" class="margin-collapsing-left-right">left</a><a href="" class="margin-collapsing-left-right">right</a>
+		<div class="margin-collapsing-top-bottom">
+			top
+		</div>
+		<div class="margin-collapsing-top-bottom">
+			bottom
+		</div>	
 	</div>
 </body>
 </html>
