@@ -9,12 +9,13 @@ suite.add('Array#map', function() {
 })
 .add('Array#forEach', function() {
   var ret = [] 
-  ret = arr.forEach((v)=>{return v * 2})
+  arr.forEach((v)=>{ret.push(v)})
   return ret
 })
 .add('for', function() {
     var ret = [];
     for(var i=0;i<arr.length;i++){
+        var v = arr[i]
         ret.push((v)=>{return v * 2});
     }
     return ret
