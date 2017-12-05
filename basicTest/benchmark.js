@@ -3,10 +3,14 @@ var suite = new Benchmark.Suite;
 var arr = [1,2,3,4,5,6,7,8,9,10,11,12]
 // add tests
 suite.add('Array#map', function() {
-  arr.map((v)=>{return v * 2})
+  var ret = [] 
+  ret = arr.map((v)=>{return v * 2})
+  return ret
 })
 .add('Array#forEach', function() {
-  arr.forEach((v)=>{return v * 2})
+  var ret = [] 
+  ret = arr.forEach((v)=>{return v * 2})
+  return ret
 })
 .add('for', function() {
     var ret = [];
