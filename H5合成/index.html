@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        // $.get({
+        //     url: "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=5_FA0NBiJ2NhJ-0th3eKCMsBRJActtrV-nsqPe8PnAVuRIGCJOXr7JFYCICirbxinSZVCviSZygZNnetAYIQJjKXOQcCctcPrkfIzI27FNjZA2x-T1SS3aiZzWuNlrZrsPVFIsV5c_ZKruXgqjZXTjAIAPNJ&type=jsapi",
+        //     success: function( result ) {
+        //         console.log(result);
+        //     }
+        // });
+
+        //https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=ACCESS_TOKEN&type=jsapi
+
+        wx.config({
+            debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+            appId: 'wx10b3c61dbd42780c', // 必填，公众号的唯一标识
+            timestamp: 1414587457, // 必填，生成签名的时间戳
+            nonceStr: 'Wm3WZYTPz0wzccnW', // 必填，生成签名的随机串
+            signature: '743ee8a71815700f61314231351058c4daebf27c',// 必填，签名，见附录1
+            jsApiList: ['onMenuShareTimeline'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+        });
+    </script>
+    <script type="text/javascript">
+        wx.ready(function(){
+            console.log("通过ready接口处理成功验证")
+            wx.checkJsApi({
+                jsApiList: ['onMenuShareTimeline'], // 需要检测的JS接口列表，所有JS接口列表见附录2,
+                success: function(res) {
+                    console.log(res);
+                }
+            });
+        })
+        wx.error(function(res){
+            console.log(res);
+        });
+        wx.onMenuShareTimeline({
+            title: '前端牛逼', // 分享标题
+            link: 'https://segmentfault.com/q/1010000002489963', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'https://sfault-avatar.b0.upaiyun.com/387/094/3870942348-59a1e0d6bdb05_big64', // 分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+                console.log("分享成功了！")
+            },
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <style>
+    .border{
+      border:2px solid red
+    }
+  </style>
+  <script src="main.js"></script>
+</head>
+<body>
+    <div class="border">
+      <canvas id="canvas" width="1280" height="768" class="border">
+
+      </canvas>
+      <div style="display:none;">
+          <img id="source" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227" style="padding:20px;background:white;">
+          <img id="source1" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227" style="padding:20px;background:white;"/ >
+      </div>
+    </div>
+    <script type="text/javascript">
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+      var image = document.getElementById('source');
+      var image1 = document.getElementById('source1');
+      console.log(image,image1);
+      function drawCanvas() {
+        // ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "yellowgreen";
+        ctx.fillRect(0, 0, 1280, 768);
+        ctx.drawImage(image, 100,100,100,100);
+        ctx.rect(100,100,100,100);
+        
+        // ctx.stroke();
+        ctx.drawImage(image1, 300,74,100,100);
+        ctx.rect(300,74,100,100);
+        ctx.strokeStyle="white";
+        ctx.stroke();
+        // eval(textarea.value);
+      }
+      // drawCanvas(image);
+      window.addEventListener("load", drawCanvas);
+      console.log(ctx.getImageData(50, 50, 100, 100));
+    </script>
+</body>
+</html>
+
+<!-- 1.canvas drawImage绘制图片测试√-->
+<!-- 2.调用html2canvas写图片描边截图函数×使用stroke方法画线√-->
+<!-- 3.绘制描边后的图片到canvas画布√-->
+<!-- 4.封装成函数。-->
+<!-- 5.合成10张图片。-->
+<!-- -->
