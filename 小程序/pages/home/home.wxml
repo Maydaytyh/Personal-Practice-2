@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<view class='container'>
+    <!-- <view class="page" style="background-color:{{pageBackgroundColor}}" >
+      <button bindtap="changeColor" hover-class="none">点击修改背景颜色</button> 
+    </view> -->
+    <image class="background-image" src='./images/2018@2x.png'></image>    
+   <view class="identity">
+    <view class="header">
+       <view class="image-group">
+        <image class="lantern-left order-first" src='./images/图层17@2x.png' style="margin-top:{{lanternLeftMarginTop}}" ></image>
+        <image class="lantern-right order-first" src='./images/图层17拷贝@2x.png' style="margin-top:{{lanternRightMarginTop}}"></image>
+
+        <image class="wanshiruyi order-second" src='./images/万事如意@2x.png' style="margin-top:{{wanshiruyiMarginTop}}"></image>
+        <image class="order-second shitou" src='./images/狮头@2x.png' style="transform:{{shitouTransform}}"></image>
+        <image class="order-second logo-right" src='./images/图层1拷贝@2x.png' style="margin-top:{{logoRightMarginTop}}"></image>
+        <image class="order-second jianlanren" src='./images/建兰人@2x.png' style="transform:{{jianlanrenTransform}}"></image>
+
+        <image class="order-third gounianjixiang" src='./images/狗年吉祥@2x.png' style="transform:{{gounianjixiangTransform}}"></image> 
+
+        <image class="cloud-left" src='./images/云左@2x.png' style="margin-left:{{cloudleftMarginLeft}}"></image> 
+        <image class="cloud-right" src='./images/云右@2x.png' style="margin-right:{{cloudRightMarginRight}}"></image> 
+      </view> 
+    </view>
+    <view class="content">
+      <view class="btn-group">
+        <button class=''><image src='./images/在读学子@2x.png'></image></button>
+        <button class=''><image src='./images/往届学子@2x.png'></image></button>
+      </view>
+       <view class="btn-group">
+        <button class=''><image src='./images/建兰教师@2x.png'></image></button>
+        <button class=''><image src='./images/其他人士@2x.png'></image></button>
+      </view> 
+    </view>
+  </view>  
+</view>

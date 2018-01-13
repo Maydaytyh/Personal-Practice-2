@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#c0c0c0",
+    "navigationBarTitleText": "建兰贺新春小程序",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#800000",
+    "enablePullDownRefresh": "false",
+    "onReachBottomDistance": 10
+  },
+  "tabBar": {
+    "position": "bottom",
+  "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/logs/窗口.png",
+        "selectedIconPath": "pages/logs/窗口.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/index/插头.png",
+        "selectedIconPath": "pages/index/插头.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "pages/logs/窗口.png",
+        "selectedIconPath": "pages/logs/窗口.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 120000,
+    "connectSocket": 120000,
+    "uploadFile": 120000,
+    "downloadFile": 120000
+  },
+  "debug": true
+}
