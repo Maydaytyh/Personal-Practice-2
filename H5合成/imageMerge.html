@@ -22,6 +22,7 @@
     }
   </style>
   <script src="main.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>  
 </head>
 <body>
     <div id="root">
@@ -48,16 +49,18 @@
       </div>
     </div>
     <script type="text/javascript">
+      var windowHeight = $(document.body).outerHeight(true);
+      var windowWidth = $(document.body).outerWidth(true);
       /*
       * desc: 初始化canvas画布，上下文，图片描边色
       */
       var canvas = document.getElementById("canvas");
-      canvas.width = window.outerWidth;
-      canvas.height = window.outerHeight;
+      canvas.width =$(document.body).width();
+      canvas.height = $(document.body).height();
       var ctx = canvas.getContext("2d");
       ctx.fillStyle = "yellowgreen";
       ctx.strokeStyle="white";
-      ctx.fillRect(0,0,window.outerWidth,window.outerHeight);
+      ctx.fillRect(0,0,windowWidth,windowHeight);
       /*
       * desc: 生成图片源数组
       */
@@ -83,7 +86,7 @@
           y = 20;
         }else{
           x = x + 100 +Math.random()*width;
-          if(x>=window.outerWidth-width){
+          if(x>=windowWidth-width){
             x = random10
           }
           var condition = Math.random()*10;
