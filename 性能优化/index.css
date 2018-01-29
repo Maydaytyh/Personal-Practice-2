@@ -1,0 +1,14 @@
+.margin-transition{
+  /* margin-left: 0; */
+  background: rgba(0,0,255,0.3);
+  transition: margin-left 1s;
+}
+.transform-transition{
+  /* transform: translate(0,0); */
+  background: rgba(0,255,0,0.3);
+  transition: transform 1s;
+}
+.common{
+  height: 300px;
+  width: 300px;
+}
