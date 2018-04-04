@@ -7,26 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <!-->
+    <!--
         如果网站对form设置了autocomplete= "off"，这个form表单包括username和password input标签，但是浏览器会依然有记住密码的权限，并且会询问用户是否记住用户名和密码，若允许，下次访问会自动填充。    
-    <-->
+    -->
     <form>
         <input type="text" name="username"></input>
         <input type="password" name="password"></input>
     </form>
-    <!-->
+    <!--
         如果网站对username和password input标签设置了autocomplete="off"，浏览器会依然有记住密码的权限，并且会询问用户是否记住用户名和密码，若允许，下次访问会自动填充。
-    <-->
+    -->
     <form autocomplete="off">
         <input type="text" name="user" autocomplete="off"></input>
         <input type="password" name="password" autocomplete="off"></input>
     </form> 
 
-    <!-->
+    <!--
          简书登录    
-    <-->
+    -->
     <input placeholder="手机号或邮箱" type="text" name="session[email_or_mobile_number]" id="session_email_or_mobile_number">
-    <input placeholder="密码" type="password" name="session[password]" id="session_password">
+    <input placeholder="密码" type="password" name="session[password]" id="session_password"></input>
 
+    <!--
+        spellcheck
+    -->
+    <input type="text" spellcheck="true">
+
+    <!--
+        types
+    -->
+    <input name="button" type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text">
+    <input type="time">
+    <input type="url">
+    <input type="week">
+
+    <input type="text" autocomplete="username">
+
+    <input type="text" autofocus>
+
+    <input type="radio" checked>
+    <input type="text" disabled>
 </body>
 </html>
