@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .app_dir_list{
+            display: inline-block;   
+        }
+        .dir_tag{
+            min-width: 140px;
+            color:#fff;
+            background: rgba(108,145,198,1);
+            margin: 20px;  
+            /* border-right: 16px inset rgba(71,107,157,1); */
+            overflow: hidden;
+            vertical-align: middle;    
+            height: 40px;
+        }
+        .dir_tag>span:nth-of-type(1){
+            display: inline-block;
+            line-height: 40px;
+            margin: 0 0 0 10px;
+        }
+        .dir_tag>.dir_tag_right>span:nth-of-type(1){
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 2.2ch;
+            line-height: 2ch;
+            vertical-align: text-top;
+            text-align: center;    
+        }
+        .dir_tag>.dir_tag_right{
+            float: right;
+        }
+        .dir_tag>.dir_tag_right>.rectangle-group{
+            background: rgba(71,107,157,1);
+            vertical-align: middle;
+            text-align: center;
+            padding: 1.4ex .8ex;
+            display: inline-block;
+        }
+        .dir_tag>.dir_tag_right>.rectangle-group>span{
+            display: block;
+            width: .5ex;
+            height: .5ex;    
+            background: rgba(108,145,198,1);
+            margin: 0.1ex 0 0.4ex 0;
+        }
+        .dir-tag-search{
+            margin-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app_dir_list">
+        <div class="dir_tag">
+            <span>标签名称</span>
+            <div class="dir_tag_right">
+                <span>199</span>    
+                <div class="rectangle-group">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>            
+</body>
+</html>
