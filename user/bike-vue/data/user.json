@@ -1,0 +1,16 @@
+[
+    {
+        "name": "陈广兵",
+        "password": "Chengb123",
+        "description": "王雪芝",
+        "enable": "1",
+        "province": "安徽省",
+        "city": "天长市",
+        "net": null,
+        "groups": [
+            "车辆投放",
+            "租还分析",
+            "运营分析"
+        ]
+    }
+ ]

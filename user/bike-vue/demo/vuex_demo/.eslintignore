@@ -1,0 +1,4 @@
+build/*.js
+config/*.js
+src/store/*.js
+src/components/*.vue
