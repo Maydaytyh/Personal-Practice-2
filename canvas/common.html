@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            width:100%;
+            height: 100%;
+        }
+        html,#root{
+            width:100%;
+            height: 100%;
+        }
+        .border{
+            border:2px solid red
+        }
+    </style>
+    <script src="main.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="root">
+    <canvas id="canvas" class="border">
+
+    </canvas>
+    <div id="image-container" style="display:none;">
+        <img id="source0" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227" />
+        <img id="source1" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source2" src="http://ov6jc8fwp.bkt.clouddn.com/Taylor%20Swift.jpg" width="300" height="227"/>
+        <img id="source3" src="http://ov6jc8fwp.bkt.clouddn.com/%E5%A4%A7%E7%A5%9E.jpg" width="300" height="227"/ >
+        <img id="source4" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227"/>
+        <img id="source5" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source6" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227"/>
+        <img id="source7" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source8" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227" />
+        <img id="source9" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source10" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227"/>
+        <img id="source11" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source12" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227"/>
+        <img id="source13" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+        <img id="source14" src="http://ov6jc8fwp.bkt.clouddn.com/AAEAAQAAAAAAAAghAAAAJGE4ZTM1NjJkLThjNWMtNDE1OC1iMGZjLTJjMTJjMjliNjBhYw.jpg" width="300" height="227"/>
+        <img id="source15" src="http://ov6jc8fwp.bkt.clouddn.com/2440018536-58e12656c3533_huge256.jpg" width="300" height="227"/ >
+    </div>
+</div>
+<script type="text/javascript">
+    const windowHeight = $(document.body).outerHeight(true);
+    const windowWidth = $(document.body).outerWidth(true);
+    /*
+    * desc: 初始化canvas画布，上下文，图片描边色
+    */
+    const canvas = document.getElementById("canvas");
+    canvas.width =$(document.body).width();
+    canvas.height = $(document.body).height();
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "yellowgreen";
+    ctx.strokeStyle="white";
+    ctx.fillRect(0,0,windowWidth,windowHeight);
+    /*
+    * desc: 生成图片源数组
+    */
+    console.log((document.getElementById("image-container").childNodes.length-1)/2);
+    const arrLength = (document.getElementById("image-container").childNodes.length-1)/2;
+    const arr = [];
+    for(let i=0;i<arrLength;i++){
+        let name = "source"+i;
+        let image = document.getElementById(name);
+        arr.push(image);
+    }
+    /*
+    * desc: 绘制单个头像函数
+    */
+    let x = 0 ;
+    let y = 0 ;
+    function drawImage(i,w,h){
+        let width = w || 1000;
+        let height = h || 1000;
+        // let random10 = Math.random()*10;
+        // if(i==0){
+        //     x = random10;
+        //     y = 20;
+        // }else{
+        //     x = x + 100 +Math.random()*width;
+        //     if(x>=windowWidth-width){
+        //         x = random10
+        //     }
+        //     let condition = Math.random()*10;
+        //     if(condition>=5){
+        //         y = y - Math.random()*10;
+        //     }else{
+        //         y = y + Math.random()*10;
+        //     }
+        //     if(x==random10 ||y>y+height){
+        //         y = y + 100+20;
+        //     }
+        // }
+        x = 200;
+        y = 200;
+        ctx.drawImage(arr[i],x,y,width,height);
+        ctx.rect(x,y,width,height)
+        ctx.stroke();
+    }
+    /*
+    * desc: 遍历图像源并绘制数组
+    */
+    function drawCanvas() {
+        let width = 0;
+        let height = 0;
+        let size = 0;
+        for(let i=0;i<arrLength;i++){
+            // size = Math.random()*50+50;
+            // width = size;
+            // height = size;
+            if(i===8){
+                drawImage(i,1000,1000);
+            }else {
+                drawImage(i,200,200)
+            }
+        }
+    }
+    window.addEventListener("load", drawCanvas);
+    console.log(ctx.getImageData(50, 50, 100, 100));
+</script>
+</body>
+</html>
+
+<!-- 1.canvas drawImage绘制图片测试√-->
+<!-- 2.调用html2canvas写图片描边截图函数×使用stroke方法画线√-->
+<!-- 3.绘制描边后的图片到canvas画布√-->
+<!-- 4.封装成函数。√-->
+<!-- 5.合成10张图片√。-->
+<!-- 6.如果上传的图片大小不一致，该怎么办？获取到图片的宽度和高度，做一个到50到100的等比转换，再作为参数传入。-->
+<!-- -->
+
+<!--合成2张图，层叠 -->
