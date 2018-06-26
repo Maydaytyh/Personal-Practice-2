@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://10.10.101.49:7300/mock/5af3b2aa506de5008a442672/liaodian",
+      "ws": true
+    },
+    "/foo": {
+      "target": "http://10.10.101.49:7300/mock/5af3b2aa506de5008a442672/liaodian",
+      "https": true,
+      "pathRewrite": {
+        "^/foo": "/foo/beta"
+      }
+    }
+  }
+}
