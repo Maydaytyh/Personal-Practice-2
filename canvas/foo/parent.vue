@@ -1,0 +1,1 @@
+<Canvas :qr="distribute.QR.img" :main-pic="distribute.mainPic"></Canvas>

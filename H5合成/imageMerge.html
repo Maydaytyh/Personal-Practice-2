@@ -49,15 +49,15 @@
       </div>
     </div>
     <script type="text/javascript">
-      var windowHeight = $(document.body).outerHeight(true);
-      var windowWidth = $(document.body).outerWidth(true);
+      const windowHeight = $(document.body).outerHeight(true);
+      const windowWidth = $(document.body).outerWidth(true);
       /*
       * desc: 初始化canvas画布，上下文，图片描边色
       */
-      var canvas = document.getElementById("canvas");
+      const canvas = document.getElementById("canvas");
       canvas.width =$(document.body).width();
       canvas.height = $(document.body).height();
-      var ctx = canvas.getContext("2d");
+      const ctx = canvas.getContext("2d");
       ctx.fillStyle = "yellowgreen";
       ctx.strokeStyle="white";
       ctx.fillRect(0,0,windowWidth,windowHeight);
@@ -65,22 +65,22 @@
       * desc: 生成图片源数组
       */
       console.log((document.getElementById("image-container").childNodes.length-1)/2);    
-      var arrLength = (document.getElementById("image-container").childNodes.length-1)/2;  
-      var arr = [];
-      for(var i=0;i<arrLength;i++){
-        var name = "source"+i;
-        var image = document.getElementById(name);
+      const arrLength = (document.getElementById("image-container").childNodes.length-1)/2;
+      const arr = [];
+      for(let i=0;i<arrLength;i++){
+        let name = "source"+i;
+        let image = document.getElementById(name);
         arr.push(image);
       }
       /*
       * desc: 绘制单个头像函数
       */
-      var x = 0 ;
-      var y = 0 ;
-      function drawImage(i,width,height){
-        var width = width || 100;
-        var height = height || 100;
-        var random10 = Math.random()*10;
+      let x = 0 ;
+      let y = 0 ;
+      function drawImage(i,w,h){
+        let width = w || 100;
+        let height = h || 100;
+        let random10 = Math.random()*10;
         if(i==0){
           x = random10;
           y = 20;
@@ -89,7 +89,7 @@
           if(x>=windowWidth-width){
             x = random10
           }
-          var condition = Math.random()*10;
+          let condition = Math.random()*10;
           if(condition>=5){
             y = y - Math.random()*10;
           }else{
@@ -107,10 +107,10 @@
       * desc: 遍历图像源并绘制数组
       */
       function drawCanvas() {
-        var width = 0;
-        var height = 0;
-        var size = 0;
-        for(var i=0;i<arrLength;i++){
+        let width = 0;
+        let height = 0;
+        let size = 0;
+        for(let i=0;i<arrLength;i++){
           // size = Math.random()*50+50;
           // width = size;
           // height = size;

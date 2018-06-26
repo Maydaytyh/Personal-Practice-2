@@ -69,7 +69,7 @@ UJS.prototype={
         return val && typeof val.then === 'function'
     },
     _arraySort:function(arr){
-        arr = arr || 
+        arr = arr ||
         arr.sort((x,y)=>(x>y));
         return arr;
     },
@@ -80,7 +80,7 @@ UJS.prototype={
             if(arr[i] instanceof Object && Object.prototype.toString.call(arr[i])!=="[object Null]"){
                 if(Object.prototype.toString.call(arr[i])=="[object Object]"){
                     arr.sort((x,y)=>(x.time>y.time));
-                    arr.reduce(function(accumulator, currentValue, currentIndex, array){  
+                    arr.reduce(function(accumulator, currentValue, currentIndex, array){
                         if(accumulator.time === currentValue.time){
                             array[currentIndex-1]=null;
                         }
@@ -106,7 +106,7 @@ UJS.prototype={
     },
     _resolveUrl:function(Url){
         "use strict"
-        
+
         //'http://m.manaowan.com/index.html?a=1&b=2&c=&d=xxx&'→"a=1&b=2&c=&d=xxx&"
         function getSearch(Url){
             let indexReg=/\?/
@@ -114,9 +114,9 @@ UJS.prototype={
             let searchStr = Url.substr(resultArr['index']+1)
             return searchStr
         }
-        var mnwUrl = 'http://m.manaowan.com/index.html?a=1&b=2&c=&d=xxx&'
+        var mnwUrl = 'http://m.manaowan.com/common.html?a=1&b=2&c=&d=xxx&'
         var searchResult = getUrlParameter(mnwUrl)
-        
+
         //"a=1&b=2&c=&d=xxx&"→["a=1","b=2","c=","d=xxx"]
         function getPara(result){
             if(result!==''){
@@ -135,7 +135,7 @@ UJS.prototype={
         }
         var arr = []
         getPara(searchResult)
-        
+
         //["a=1","b=2","c=","d=xxx"]→{"a":"1","b":"2","c":"","d":"xxx"}
         var obj = {}
         for(let i =0 ;i<arr.length;i++){
@@ -144,7 +144,7 @@ UJS.prototype={
             let value = mid.substr(mid.indexOf("=")+1)
             obj[key] = value
         }
-        return JSON.stringify(obj)        
+        return JSON.stringify(obj)
     },
     _cached:function(fn) {
         var cache = Object.create(null);
@@ -155,7 +155,7 @@ UJS.prototype={
       },
     _camlize:function(str){
         //return a new camlized string
-        /*'hello-world-javascript' → 'helloWorldJavascript'*/ 
+        /*'hello-world-javascript' → 'helloWorldJavascript'*/
         var camelizeRE = /-(\w)/g
         var result = str.replace(camelizeRE,function(_,w,offset,str){/*Cannot use p2/p3/p4,only four key parameters:match,word(s),offset,str*/
             return w?w.toUpperCase():'';
@@ -227,7 +227,7 @@ UJS.prototype={
         return _;
     },
     _howToView:function(){
-        
+
     },
     _render:function(){
 
